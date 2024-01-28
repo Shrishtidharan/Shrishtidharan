@@ -1,0 +1,55 @@
+/* style.css */
+
+/* Navbar text size and color */
+.navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+}
+.navbar-brand:hover{
+  font-style:unset;
+  font-size:xx-large;
+  color: #007bff;
+
+}
+.welcome{
+  font-size: 20px;
+}
+/* Navbar hover effect */
+.navbar-nav .nav-item  {
+  background-color: #343a40;
+}
+.nav-link:hover{
+  background-color:#007bff;
+  font-weight: bold;
+  font-size: 22px;
+
+}
+/* Navbar active link */
+.navbar-nav .nav-item .active {
+  background-color:#007bff;
+  font-weight: bold;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 20px;
+}
+.pay:hover{
+  font-size: 17.5px;
+}
+
+/* Table styling */
+.table {
+  border-radius: 10px;
+  border: 50px solid gray;
+}
+
+.table thead th {
+  color: #fff;
+}
+
+.table tbody td,
+.table tbody th {
+  border-top: none;
+}
